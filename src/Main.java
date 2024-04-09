@@ -4,4 +4,9 @@ public class Main {
 
     }
 
+    //
+    public static double sumValues (double x, double y) {
+        return x + y;
+    }
+
 }
