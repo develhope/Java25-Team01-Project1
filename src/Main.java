@@ -18,6 +18,9 @@ public class Main {
     }
     // Method of Division
     public static double divValues (double x, double y) {
+        if (y == 0) {
+            System.out.println("Error!");
+        }
         return x / y;
     }
 
