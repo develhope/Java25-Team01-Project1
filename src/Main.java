@@ -28,4 +28,12 @@ public class Main {
             return "odd";
         }
     }
+
+    public static double exponentialValue (double x, double y) {
+        double result = 1.0;
+        for (int i=0; i < y; i++) {
+            result *= x;
+        }
+        return result;
+    }
 }
