@@ -20,4 +20,12 @@ public class Main {
     public static double divValues (double x, double y) {
         return x / y;
     }
+    public static String evenValues (double x, double y) {
+        double sum = x + y;
+        if (sum % 2 == 0) {
+            return "even";
+        } else {
+            return "odd";
+        }
+    }
 }
