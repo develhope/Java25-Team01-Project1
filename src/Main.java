@@ -6,7 +6,5 @@ public class Main {
 
         System.out.println("Il risultato dell'operazone è ");
         System.out.println( Op.operazione('-',6,5));
-
-
     }
 }
