@@ -1,4 +1,4 @@
-public class Op {
+public class Calculator {
     public static double operazione(char operator, double number1, double number2) {
         double result = 0;
         switch (operator){

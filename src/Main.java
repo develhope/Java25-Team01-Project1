@@ -5,7 +5,7 @@ public class Main {
         // esegue l'operazione e stampa il risultato ottenuto.
 
         System.out.println("The result of the operation is ");
-        System.out.println( Op.operazione('-',6,5));
-        System.out.println("The number is: " + Op.evenValues(7));
+        System.out.println( Calculator.operazione('-',6,5));
+        System.out.println("The number is: " + Calculator.evenValues(7));
     }
 }
