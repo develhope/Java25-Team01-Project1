@@ -19,7 +19,7 @@ public class Op {
                 break;
 
             default:
-                System.out.println("operazione non valida.");
+                System.out.println("Operation not valid");
                 break;
 
         }
@@ -37,9 +37,13 @@ public class Op {
         return number1 * number2;
     }
     // Method of Division
-    public static double divValues (double number1, double number2) {
-        return number1 / number2;
+    public static double divValues (double x, double y) {
+        if (y == 0) {
+            System.out.println("Error!");
+        }
+        return x / y;
     }
+   
 
     //Method Even values
     public static String evenValues (double number1, double number2) {
