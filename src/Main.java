@@ -6,5 +6,6 @@ public class Main {
 
         System.out.println("The result of the operation is ");
         System.out.println( Op.operazione('-',6,5));
+        System.out.println("The number is: " + Op.evenValues(7));
     }
 }
