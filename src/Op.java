@@ -17,7 +17,6 @@ public class Op {
             case '^':
                 result = exponentialValues(number1,number2);
                 break;
-
             default:
                 System.out.println("Operation not valid");
                 break;
@@ -46,13 +45,8 @@ public class Op {
    
 
     //Method Even values
-    public static String evenValues (double number1, double number2) {
-        double sum = number1 + number2;
-        if (sum % 2 == 0) {
-            return "even";
-        } else {
-            return "odd";
-        }
+    public static String evenValues(int number) {
+        return (number % 2 == 0) ? "Even" : "Odd";
     }
 
     //Method exponential values
